@@ -26,7 +26,6 @@ const Featured = ({ type }) => {
         </div>
       )}
       <img
-        width="100%"
         src="https://images.pexels.com/photos/6899260/pexels-photo-6899260.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
         alt=""
       />
@@ -42,7 +41,7 @@ const Featured = ({ type }) => {
           temporibus eum earum?
         </span>
         <div className="buttons">
-          <button className="Play">
+          <button className="play">
             <PlayArrowRounded />
             <span>Play</span>
           </button>
